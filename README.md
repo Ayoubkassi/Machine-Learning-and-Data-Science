@@ -1,7 +1,7 @@
 # Machine-Learning-and-Data-Science
 Create a lot of projects and algorithms using machine learning algorithms
 
-![alt](images/scr1.png)
+![alt](images/scr4.png)
 
 ## Types of machine learning
 ![alt](images/scr2.png)
@@ -40,7 +40,7 @@ Machine learning algorithms are also called models .
 
 ## Difference between data analysis and data science 
 
-![alt](images/scr4.png)
+![alt](images/scr1.png)
 
 
 Data analysis is looking at set of data and gaining an understanding of it by comparing different  examples , different features and making visualizations graphs , as exemple is looking for the different ingredients , and asking the questions , what all the ingredeients have in common are some of them missing something which have the most of a certain type of thing 
@@ -51,5 +51,70 @@ Data science is running experiments on a set of data with the hopes of finding a
 one of these experiments may be to build a machine learning model , this model might look at 10000 different sets . ingredients and 10000 different chicken dishes , then tell us based on a set of new ingredients that we have , which chicken dish these ingredients are most likely to make .
 
 You can consider data analysis and machine learning as a part of data science 
+
+
+## The machine learning framework
+
+So before start , i know that someon  of u had already heared before that yes , before start machine learning, u should learn mathematics , and statistics ... , yes this is important , trying to learn them all before getting started , getting hands on is like trying to boil the ocean .
+
+Instead we will focus on , how to build pratical solutions and writing machine learning code to get insights out of data .
+
+steps that u must do :
+
+* Create a framework
+* Match to data science and machine learning tools
+* Learn by doing 
+
+The steps that came again and again are :
+
+* Problem Definition : What problem are we trying to solve ?
+* Data : What data do we have ?
+* Evaluation : What defines success ?
+* Features : What features of model should we use ?
+* Modeling : What kind of model should we use ?
+* Experiments : What have we tried / what else can we try ?
+
+
+### Step 1 : Problem definition :
+![alt](images/scr6.png)
+
+
+It's important to define what problem we trying to solve , supervised or unsupervised learning , classification or regression problem .
+
+### Step 2 : Data
+![alt](images/scr5.png)
+
+Data is a requirement for any machine learning project , the question is what kind of data that we have 
+
+it depends on the project we can find a lot of different data , structured data (columns , rows) , unstructured data such as images and audio 
+
+### Step 3 : Evaluation 
+![alt](images/scr7.png)
+
+
+We answer the question what defines success for us ? , we know all that the perfect model don't exist so we must have a limit to stop our learning ,  instead we need some evaluation metric , that would not be exact in beginning , but we will change it over time .
+
+### Step 4 : Features
+![alt](images/scr8.png)
+
+
+The question we ask here is : what do we already know about the data ?
+for exemple to predict if someone or not heart disease? , you may use the body weight as a feature , body weight is a number so we call it **numerical** feauture , and maybe if someone's weight is above some certain numver they're more likely to have heart disease , there are more kinds of features , such as **categorical** and **derived** .
+
+### Step 5 : Modeling
+![alt](images/scr9.png)
+
+
+Once u've learned a little bit about your data the next step is to model it , the quetsion here is : Based on our problem and data , what model should we use?
+
+
+### Step 6 : Experimentation
+![alt](images/scr10.png)
+
+
+All the steps that we had been throught in a cycle , you might start out with one problem definition , and find your data isn't suited to it , then you might build a model and find it doesn't work as well as you outlined in your evaluation metric , so you will build another one and you find out this one actually works pretty good 
+
+The Important to remembre is that those steps , don't need to bes followed in order , not are they set in stone , consider them a rough guide .
+
 
 
