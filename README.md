@@ -154,3 +154,25 @@ for exemple to detect a dog in an image that have tree in the background , we ca
 
 
 
+## Types of Data :
+
+What kind of data that we have , we do have two main types structured as csv and excel and unstructred data as images or signal or natural language text .
+**Static data :** and as those values would not get changed over time we call them static data , machine learning is saying **The more data is better.**
+
+**Streaming data :** is data , which is constantly changed over time , news headlines are being updated constantly , you'll want to be the first to see how they change the stocks . we use it a lot when we go into production or deployment
+
+Data science workflow : begins with opening a CSV file in a jupyter notebook , then exploring the data and performing data analysis using pandas , and making visualisations such as graphs and comparing different data point using matplotlib , then building machine learning models on the data using  sickit-learn such machine learning model to predict using these patterns 
+
+
+
+## Features :
+
+The type of features which are the attribute , in general we do have just two types numerical and categorial types , but there is a concept of adding a new a new column or a new feature just by playing by the other ones , this concept called ***Feature engineering** , for exemple by taking a heart disease and the last date to know if in the current year have a heart disease or not 
+
+**Feature engineering :** looking at different features of data and creating new ones/altering existing ones
+
+when we have a feature column that the valid and existed data is less than **10%** we delete the feature or we try to collect more information 
+
+**Feature coverage :** How many samples have diffrent features ? Ideally , every sample has the same feature 
+
+so we must ensure that all the samples have the similar informations and this concept called **feature coverage**
