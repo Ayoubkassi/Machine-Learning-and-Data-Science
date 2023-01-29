@@ -176,3 +176,69 @@ when we have a feature column that the valid and existed data is less than **10%
 **Feature coverage :** How many samples have diffrent features ? Ideally , every sample has the same feature 
 
 so we must ensure that all the samples have the similar informations and this concept called **feature coverage**
+
+
+## Modeling our data 
+
+**This is the most important concept in machine learning**
+
+## Modeling Part 1 Spliting :
+
+we will go into 3 different section to model our data 
+
+- Based on our problem and data , what model should we use ?
+
+
+3 parts to modeling
+
+* Choosing and trainging a model
+    * Training data
+* Tuning a model
+    * Validation data
+* Model comparaison
+    * Test data
+
+**The most important concept in machine learning : the training validation and test sets or 3 sets**
+
+so we want to build a model to be in real world so that's why we will split it into three different sets a training set to tarin your model on ,  a validation set to churn your model on , and a test set to test and compare your different models  .
+
+
+training split : (70-80%)  
+validation split : (10-15%)
+test split : (10-15%)
+
+## Modeling Part 2 Choosing :
+
+Unlike creating your algorithm from scratch there is a lot of prebuild machine learning model , u can take advantage of when u first begin , your goal will be what kinf of machine learning algorithm to use with what kind of problem 
+
+but in general astuce to remeber if u're working with structured data , **decision trees such as random forest and gradient boosting algorithms like : CatBoost and XGBoost** , tend to work best 
+
+and if u're working with unstructured data m deep learning , neural networks and transfer learning tend to work best .
+
+once you choosen a model , your next step is to train them , the main goal here will be to line up inputs and outputs .
+
+**Goal : Miminise time between experiments**
+
+
+## Modeling Part 3 Tuning :
+
+is choosing some type of params that u will work with , like in random forest , choose 3 or 5 trees for example , or in neural network how much number of layer do u wanna have 
+
+Things to remeber : 
+* Machine learning model have hyperparameters you can adjust
+* A model first result aren't its last
+* Tuning can take place on training or validation data sets
+
+## Modeling Part 4 Comparaison :
+
+The test set that give you how you model will perform once deployed in production
+
+a good modle will yield similar result on the training , validation and test sets , and it's not uncommon 
+
+what you should be worried about if the training set performance is dramaticly higher than the test set (64% , 47% , underfitting)  , or if the test set performance is higher than the training set performance also known as overfitting 
+
+
+ideal something like : (training : 98 , test : 96)
+
+![alt](images/scr12.png)
+
