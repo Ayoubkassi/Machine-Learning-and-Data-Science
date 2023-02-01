@@ -118,3 +118,39 @@ The Important to remembre is that those steps , don't need to bes followed in or
 
 
 
+## Types of machine learning problems
+![scr11](images/scr11.png)
+
+Important point to know is that machine learning is not solution for all problems ,so when we should not use machine learning , if a w simple hand-coded instruction based system work? so we should favourite this one than running machine learning algorithm  
+
+so the first step is that we take our probklem and then we associate it to a kind of machine learning problems 
+
+Main types of machine learning :
+
+* Supervised learning 
+* Unsupervised learning
+* Transfer learning
+* reinforcement learning
+
+The first three are the most pratic one that you will work with others take a lot of time to get it work
+
+**Supervised learning :** Amachine learning algorithm tries to use the data to predict a label , if it guess the label wrong the algorithm correct itself and tries again , this act of correction is why it called supervised 
+-The main types of supervised learning problems are : classification and regression 
+
+classification : we must just tell if an instance of a class belong to a class or another one , if we do have just 2 classes we say that it's binary classification otherwise it's multi-class classification .
+
+Regression problems tries to find a number , a number which can go up or down , the traditional exemple is predict the sale price of a house based on things like number of rooms , and area ...
+
+**Unsupervised learning :** has data but no label  , and you must just tell if it's belong to a class or to another one , classical exemple are clustering algorithms .
+-typical problems : recommandation problems such as recommending what music someone should listen to based on their previous music choices , often start out as unsupervised learning problem like this .
+
+**Transfer learning :** leverages what one machine learning model has learned in another machine learning 
+
+for exemple to detect a dog in an image that have tree in the background , we can use a mdoel that has been already trained on trees detection , so we will use it and add the new model that we trying to create now .
+
+
+**Reinforcement learning :** involves having a computer program perform some actions within a defined space and rewarding it for doing it well or punishing it for doing poorly , a good exemple is to teach a machine learning algorithm to play chess , the chess board is the divine space and the actions are moving pieces, and when ai say punishement or reward , these things could be as simple as updating a score with plus one if it wins or negative one if it loses , the machine learning algorithm will be to maximize the score .
+
+
+
+
