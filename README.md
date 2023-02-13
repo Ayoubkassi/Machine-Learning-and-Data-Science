@@ -242,3 +242,65 @@ ideal something like : (training : 98 , test : 96)
 
 ![alt](images/scr12.png)
 
+There are a lot of reasons for underfitting , and overfitting , there are several reasons why but the main ones are :
+
+* data leakage 
+    * data leakage happens when some of your test data leaks into your training data , and this often results in overfitting or a model doing better on the best set than on the training data set 
+* data mismatch
+
+
+
+## 6 Experiments :
+
+as we know we will create change thing and recreate until find what we want , machine learning projects become tool machine projects  , so we will learn the whole process and know the different tools for each step
+
+for wxemple change the model or change the input data 
+
+## Conda personal assistant and package manager for team work :
+
+---
+
+![](images/scr13.png)
+
+---
+
+## Miniconda : Personal Assistant that help you to setup your workflow , and work with a team :
+
+[link](https://whimsical.com/getting-started-anaconda-miniconda-and-conda-BD751gt65nKjAD5i1CNEXU)
+
+so after going to the website and install the miniconda
+now u install it and add name variable path : 
+> chmod + x Miniconda.sh && export PATH="/home/kassi/miniconda3/bin:$PATH"
+
+now we create folder which will be our project : mkdir ml_project 
+then after we do cd to the folder and we run the next command (we create envirment and we specifiy the tools or the package that we wanna put in our project):
+
+```bash
+cd ml_project
+conda create --prefix ./env pandas numpy matplotlib scikit-learn
+```
+
+```bash
+#
+# To activate this environment, use
+#
+#     $ conda activate /home/kassi/Desktop/sample_project/env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+```
+
+## if it doesn't work try the command conda init : so u will have a base envirment and after u can change it 
+
+so by using the command : conda activate path_to_declarative_env
+
+list the envirment that we have : conda env list 
+
+after we start a jupyter notebook , by runnig the command : jupyter notebook
+but actually we don't have jupyter so this is why we need to install it by using the next command : conda install jupyter 
+
+to run a bloc of code we use : shift + ctrl
+to add new bloc we use : esc + b
+
+conda deactivate : to desactive the current env
