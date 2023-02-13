@@ -304,3 +304,18 @@ to run a bloc of code we use : shift + ctrl
 to add new bloc we use : esc + b
 
 conda deactivate : to desactive the current env
+
+
+
+
+## Jupyter Notebook :
+
+```bash
+# code to use in your jupyter Notebook : Shift + Enter 
+# Edit and none edit mode : edit mode => Enter , none edit => esc
+# after click on esc : you specify the mode : m for markdown and y for coding
+# esc + b : to create tab in above , and esc + a to create new tab in the top 
+# to run command : !ls , every command you can run but you put ! before it
+```
+
+
