@@ -326,7 +326,7 @@ conda deactivate : to desactive the current env
 Pandas is data analysis library in python and it used to explore data , manipulate data , get it ready for machine learning 
 
 Tools that u will need in our framework each section need a specific tool to be used :
-![image](scr14.png)
+![image](images/scr14.png)
 
 **Why pandas :**
 * simple to use .
