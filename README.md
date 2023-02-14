@@ -316,6 +316,35 @@ conda deactivate : to desactive the current env
 # after click on esc : you specify the mode : m for markdown and y for coding
 # esc + b : to create tab in above , and esc + a to create new tab in the top 
 # to run command : !ls , every command you can run but you put ! before it
+# ctrl + s : to save
+# ctrl + c : to kill kernel
 ```
+
+
+## Introduction to Pandas :
+
+Pandas is data analysis library in python and it used to explore data , manipulate data , get it ready for machine learning 
+
+Tools that u will need in our framework each section need a specific tool to be used :
+![image](scr14.png)
+
+**Why pandas :**
+* simple to use .
+* integrated with many other data science & machine learning python tools .
+* helps you get your data ready for machine learning .
+
+So the most main things to know about pandas are : 
+
+* Most useful functions
+* Pandas datatypes : There is two mains one **Series** and **Dataframes**
+* Importing & exporting data
+* Describing data
+* Viewing & selecting data
+* Manipulating data
+
+
+Anotomy of Dataframe : Row(axis = 0) , Column(axis = 1) , indexes(starts at 0 by default) 
+
+
 
 
